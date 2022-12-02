@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@100;400&family=Nunito:wght@200;600;700&family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+a{
+    color: #f4f4f4;
+}
+body{
+    background-color: rgb(2, 2, 2);
+    overflow:hidden ;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+    position: relative;
+}
+
+.lineup{
+    border-bottom: 2px solid #f4f4f4;
+    width: 30%;
+    margin-top: 80px;
+    position: fixed;
+}
+.linedown{
+    border-top: 2px solid #f4f4f4;
+    width: 60%;
+    position: fixed;
+    margin-top: 660px;
+    margin-left: 900px;
+}
+
+  
+   /* Navbar */
+   .navbar {
+    position: fixed;
+    left: 0 ;
+    width: 200px;
+    height: 100%;
+    margin-top: 205px;
+    background: rgba(0, 0, 0, 0);
+    transition: all .5s ease;
+  }
+  
+  .navbar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 16px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .4s;
+  }
+  .navbar ul li:hover a{
+    padding-left: 50px;
+    /* border-bottom: 2px solid rgba(255,255,255,.2); */
+  }
+  .navbar ul a i{
+    margin-right: 16px;
+  }
+  .fa-brands{
+    font-size: 20px;
+    color: #f4f4f4;
+    margin: 5px;
+    margin-left: 20px;
+    margin-top: 150px;
+    transition: all .5s;
+}
+.fa-brands:hover{
+    padding-left: 5px;
+    color: rgba(96, 87, 87, 3);
+}
+
+.btn{
+    background: transparent;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.btn2{
+    background: transparent;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 200px;
+  margin-left: 400px;
+  position: absolute;
+}
+h1{
+    /* margin-left: 200px; */
+    margin-bottom: 30px;
+  }
+
+  .text{
+   margin-bottom: 40px;
+    font-weight: 900;
+    text-align: center;
+  line-height: 1.5em;
+  }

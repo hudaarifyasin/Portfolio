@@ -11,10 +11,12 @@ a{
 }
 body{
     background-color: rgb(2, 2, 2);
-    overflow:hidden ;
+    /* overflow:hidden ; */
     font-family: 'Montserrat', sans-serif;
     color: #f4f4f4;
     position: relative;
+    width: 100%;
+    margin: auto;
 }
 
 .lineup{
@@ -55,7 +57,7 @@ body{
   }
   .navbar ul li:hover a{
     padding-left: 50px;
-    border-bottom: 2px solid rgba(255,255,255,.2);
+    /* border-bottom: 2px solid rgba(255,255,255,.2); */
   }
   .navbar ul a i{
     margin-right: 16px;
@@ -65,7 +67,7 @@ body{
     color: #f4f4f4;
     margin: 5px;
     margin-left: 20px;
-    margin-top: 140px;
+    margin-top: 150px;
     transition: all .5s;
 }
 .fa-brands:hover{
@@ -87,7 +89,7 @@ body{
 
 /* Showcase */
 h1{
-    margin-top: 70px;
+    margin-top: 90px;
     position: absolute;
    margin-left: 600px;
    font-family: 'Montserrat', sans-serif;
